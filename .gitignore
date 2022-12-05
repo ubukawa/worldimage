@@ -1,3 +1,4 @@
 0_download/*.hdf
 1_tiff/*.tif
+2_8bit/*.tif
 test/*
