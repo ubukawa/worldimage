@@ -1,1 +1,1 @@
-echo "start";date;for f in test/*.tif; do gdal_calc.py -A ${f} --calc="(A<=0)*0 + (A>0)*(A<=3500)*A/14 + (A>3500)*250" --type=Byte --outfile 2_8bit/`basename ${f}`; done; echo end;date 
+echo "start";date;for f in 1_tiff/*.tif; do gdal_calc.py -A ${f} --calc="(A<=0)*0 + (A>0)*(A<=3500)*A/14 + (A>3500)*250" --type=Byte --outfile 2_8bit/`basename ${f}`; done; echo end;date 
