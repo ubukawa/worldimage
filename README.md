@@ -15,3 +15,7 @@ mkdir 2_8bit
 mkdir 3_merge
 ./merge.sh
 ```
+
+
+# sample
+https://ubukawa.github.io/worldimage/map.html
