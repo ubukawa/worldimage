@@ -1,0 +1,17 @@
+{
+  "version": 8,
+  "sources": {
+    "MODIS": {
+      "type": "raster",
+      "attribution": "MODIS (NASA LPDAAC) - 2022-09-14 (8 days)",
+      "tiles": [
+        "https://ubukawa.github.io/worldimage/5_tile/test(2-5)/{z}/{x}/{y}.png"
+      ],
+      "minzoom": 0,
+      "maxzoom": 5
+    }
+  },
+  "layers": [
+      {"id": "test", "type": "raster", "source": "MODIS"}
+  ]
+}
