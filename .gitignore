@@ -2,4 +2,6 @@
 1_tiff/*.tif
 2_8bit/*.tif
 3_merge/*
+4_warp/*
 test/*
+*.tif

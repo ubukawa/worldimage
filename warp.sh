@@ -1,0 +1,1 @@
+gdalwarp -t_srs EPSG:3857 -te -20037508.34 -20048966.1 20037508.34 20048966.1 -ts 65536 65536 3_merge/RGB.tif 4_warp/rgb-3857.tif
