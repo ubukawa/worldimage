@@ -3,5 +3,7 @@
 2_8bit/*.tif
 3_merge/*
 4_warp/*
+5_tile/tile(2-8)/7/*
+5_tile/tile(2-8)/8/*
 test/*
 *.tif
