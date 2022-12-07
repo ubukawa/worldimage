@@ -19,3 +19,8 @@ mkdir 3_merge
 
 # sample
 https://ubukawa.github.io/worldimage/map.html
+
+
+# tiles
+Please note that zool level 7 and 8 is not updated into this repository due to their data size.  
+https://ubukawa.github.io/worldimage/5_tile/test(2-8)/{z}/{x}/{y}.png
